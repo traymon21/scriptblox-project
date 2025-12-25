@@ -1,0 +1,7 @@
+{
+  "buildCommand": "curl -fsSL https://get.pnpm.io/install.sh | sh - && export PNPM_HOME=\"/vercel/.local/share/pnpm\" && export PATH=\"$PNPM_HOME:$PATH\" && pnpm --version && npm_config_registry=https://registry.npmmirror.com pnpm install --no-frozen-lockfile --force && pnpm run build",
+  "installCommand": "",
+  "devCommand": "pnpm run dev",
+  "outputDirectory": "dist",
+  "regions": ["sin1"]
+}
